@@ -8,6 +8,8 @@ import { CardPeliculaComponent } from './Components/card-pelicula/card-pelicula.
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
 import { NavComponent } from './Components/nav/nav.component';
+import { RegisterComponent } from './Components/Persona/register/register.component';
+import { GetAllPersonasComponent } from './Components/Persona/get-all-personas/get-all-personas.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { NavComponent } from './Components/nav/nav.component';
     AppComponent,
     HomeComponent,
     CardPeliculaComponent,
-    NavComponent
+    NavComponent,
+    RegisterComponent,
+    GetAllPersonasComponent
   ],
   imports: [
     BrowserModule,
