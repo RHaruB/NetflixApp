@@ -10,6 +10,12 @@ import {MatCardModule} from '@angular/material/card';
 import { NavComponent } from './Components/nav/nav.component';
 import { RegisterComponent } from './Components/Persona/register/register.component';
 import { GetAllPersonasComponent } from './Components/Persona/get-all-personas/get-all-personas.component';
+import { SetGeneroComponent } from './Components/Persona/set-genero/set-genero.component';
+import { FormsModule } from '@angular/forms';
+import {MatDialogModule}from '@angular/material/dialog';
+import { HttpClientModule } from "@angular/common/http";
+
+
 
 
 @NgModule({
@@ -19,13 +25,17 @@ import { GetAllPersonasComponent } from './Components/Persona/get-all-personas/g
     CardPeliculaComponent,
     NavComponent,
     RegisterComponent,
-    GetAllPersonasComponent
+    GetAllPersonasComponent,
+    SetGeneroComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatCardModule
+    MatCardModule,
+    FormsModule,
+    MatDialogModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

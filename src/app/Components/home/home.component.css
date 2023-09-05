@@ -62,3 +62,10 @@
     border-radius: 5px;
     cursor: pointer;
 }
+#myButton {
+    position: fixed;
+    top: 10%;
+    
+    right: 20px;
+    transform: translateY(-50%);
+  }

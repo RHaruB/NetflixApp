@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './Components/home/home.component';
 import { RegisterComponent } from './Components/Persona/register/register.component';
 import { GetAllPersonasComponent } from './Components/Persona/get-all-personas/get-all-personas.component';
+import { SetGeneroComponent } from './Components/Persona/set-genero/set-genero.component';
 
 const routes: Routes = [
   {
@@ -12,6 +13,10 @@ const routes: Routes = [
   {
     path: 'SetPersona',
     component: RegisterComponent
+  },
+  {
+    path: 'SetGenero',
+    component: SetGeneroComponent
   },
   {
     path: 'GetAllPersona',
